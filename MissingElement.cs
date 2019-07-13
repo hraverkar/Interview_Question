@@ -20,6 +20,15 @@ namespace ConsoleApp47
       int arrySum = arr.Sum();
       var a = sum - arrySum;
       Console.WriteLine(a);
+
+
+      int xor = 0; int i;
+      for(i=0;i<arr.Length;i++)
+      {
+        xor = xor ^ i ^ arr[i];
+      }
+      var t = xor ^ i;
+      Console.WriteLine("Hello element is " + t);
     }
   }
 }
