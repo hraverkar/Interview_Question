@@ -33,7 +33,12 @@ namespace ReturnMaximumOccuringCharacter
             if (arr[i] + arr[j] + arr[k] == u)
             {
               temp = u;
-
+              Console.Write(arr[i]);
+              Console.Write(" ");
+              Console.Write(arr[j]);
+              Console.Write(" ");
+              Console.Write(arr[k]);
+              Console.Write("\n");
             }
           }
         }
